@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MD0_FlashCart")(type "KiCad")(uri "X:/Projekte/MegaDuck/MD0_FlashCart")(options "")(descr ""))
+)
