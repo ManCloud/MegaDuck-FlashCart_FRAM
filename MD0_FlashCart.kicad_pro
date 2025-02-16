@@ -51,8 +51,37 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "silk_over_copper|174333202|96577838|fc80b42d-f2c2-471f-b3e7-42c09726acdd|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|209423095|97609819|b87c65eb-ed05-44cf-af50-c6224b37e94f|00000000-0000-0000-0000-000000000000",
+        "text_height|200660000|91821000|ca885554-0dc3-49f5-92b3-8d16d1d9376b|00000000-0000-0000-0000-000000000000",
+        "text_on_edge_cuts|215900000|114300000|24cc3186-eb36-4e09-9173-3e819037d774|00000000-0000-0000-0000-000000000000",
+        "text_thickness|200660000|91821000|ca885554-0dc3-49f5-92b3-8d16d1d9376b|00000000-0000-0000-0000-000000000000",
+        "via_dangling|170020000|74422000|b4c9487c-3c6a-4de4-ae33-d42b2e0cbd9e|00000000-0000-0000-0000-000000000000",
+        "via_dangling|189520000|74422000|1dbadb1e-91ee-4849-a89e-b9d4b1425c3c|00000000-0000-0000-0000-000000000000",
+        "via_dangling|191008000|74422000|aa588f3d-95ac-4b0f-906b-ac7a509d25c4|00000000-0000-0000-0000-000000000000",
+        "via_dangling|192532000|74422000|d3f65c61-445d-4a52-9d48-5b6642bf1e28|00000000-0000-0000-0000-000000000000",
+        "via_dangling|194020000|74422000|e4e6c606-70a8-4783-a5f7-76b081e718b8|00000000-0000-0000-0000-000000000000",
+        "via_dangling|195580000|74422000|9bbb74a2-5413-4ad8-a2ab-2cffdd236e52|00000000-0000-0000-0000-000000000000",
+        "via_dangling|197020000|74422000|f4d18d3b-0679-47b8-a028-deef2e05085b|00000000-0000-0000-0000-000000000000",
+        "via_dangling|198520000|74422000|0241347e-75e1-479d-9307-b8e8bdfef2c2|00000000-0000-0000-0000-000000000000",
+        "via_dangling|200020000|74422000|5cc8669e-67ee-46f7-93b0-dc0743e30679|00000000-0000-0000-0000-000000000000",
+        "via_dangling|201520000|74422000|e0509537-db44-4622-8cf2-93d4ee177173|00000000-0000-0000-0000-000000000000",
+        "via_dangling|203020000|74422000|6243e395-9de2-49f5-990f-f77331cadd0f|00000000-0000-0000-0000-000000000000",
+        "via_dangling|204520000|74422000|36470dd7-384e-46d6-aca6-c3ec4ed35712|00000000-0000-0000-0000-000000000000",
+        "via_dangling|206020000|74422000|16630ae9-3e0b-48dd-9b0c-3104435794ae|00000000-0000-0000-0000-000000000000",
+        "via_dangling|207520000|74422000|1335de33-8564-4962-90ee-a42a95aef2a8|00000000-0000-0000-0000-000000000000",
+        "via_dangling|209020000|74422000|1546eec8-5389-4e5d-b5ed-38c4fcc654ea|00000000-0000-0000-0000-000000000000",
+        "via_dangling|213520000|74422000|aef123e8-9a0b-400d-ae12-18554fe7b8b2|00000000-0000-0000-0000-000000000000",
+        "via_dangling|215170000|74422000|431406cb-9719-4542-b109-68f0243770e3|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -171,7 +200,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.25,
+        0.4,
+        0.6
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +233,24 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -438,7 +490,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -448,9 +500,26 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.127,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Supply",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -459,7 +528,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Supply",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
