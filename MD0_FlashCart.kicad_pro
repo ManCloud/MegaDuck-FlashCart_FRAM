@@ -72,10 +72,6 @@
           ""
         ],
         [
-          "via_dangling|170020000|74422000|b4c9487c-3c6a-4de4-ae33-d42b2e0cbd9e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "via_dangling|189520000|74422000|1dbadb1e-91ee-4849-a89e-b9d4b1425c3c|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -185,6 +181,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -265,6 +262,7 @@
       ],
       "track_widths": [
         0.0,
+        0.127,
         0.2,
         0.25,
         0.4,
@@ -547,6 +545,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"

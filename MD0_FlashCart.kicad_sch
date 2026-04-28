@@ -5841,6 +5841,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 128.27) (xy 261.62 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa4edfe-f2ce-4569-8a39-2a7d1151357e")
+	)
+	(wire
+		(pts
 			(xy 152.4 130.81) (xy 154.94 130.81)
 		)
 		(stroke
@@ -7059,6 +7069,28 @@
 			)
 		)
 	)
+	(global_label "~{FLASH_WR}"
+		(shape input)
+		(at 259.08 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4136e662-52da-44da-b4e2-09cc83665c29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.6605 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{RAM_CE}"
 		(shape input)
 		(at 34.29 91.44 180)
@@ -7675,7 +7707,7 @@
 			)
 		)
 	)
-	(global_label "~{WR}"
+	(global_label "~{FLASH_WR}"
 		(shape input)
 		(at 152.4 128.27 180)
 		(fields_autoplaced yes)
@@ -7687,7 +7719,7 @@
 		)
 		(uuid "6f00d83b-35a7-4000-a596-efb1a9fe0bd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.6934 128.27 0)
+			(at 139.9805 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8929,28 +8961,6 @@
 			)
 		)
 	)
-	(global_label "???2"
-		(shape input)
-		(at 219.71 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ddbe2d85-c2d8-4f97-81fa-c4ec7df1cb6b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.2495 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "A0"
 		(shape input)
 		(at 259.08 64.77 180)
@@ -9215,6 +9225,28 @@
 			)
 		)
 	)
+	(global_label "~{FLASH_WR}"
+		(shape input)
+		(at 219.71 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffccb144-01e2-49ed-b81f-24a91913c8e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.2905 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 36.83 104.14 0)
@@ -9274,7 +9306,7 @@
 			(uuid "60aad742-4a23-4fbc-bc27-d6012bcbcbbd")
 		)
 		(instances
-			(project "FramModule"
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "#PWR011")
 					(unit 1)
@@ -9432,7 +9464,7 @@
 			(uuid "60d32811-311d-4ca5-b959-cee0164aa5be")
 		)
 		(instances
-			(project ""
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "U3")
 					(unit 1)
@@ -9633,7 +9665,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "U4")
 					(unit 1)
@@ -9850,7 +9882,7 @@
 			(uuid "8c3e98a6-0f24-4917-9fa4-baf9e59dac7a")
 		)
 		(instances
-			(project ""
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "D1")
 					(unit 1)
@@ -9935,7 +9967,7 @@
 			(uuid "944c5b88-ec04-474a-85da-3f13bc23fa1d")
 		)
 		(instances
-			(project "FramModule"
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "D4")
 					(unit 1)
@@ -10083,7 +10115,7 @@
 			(uuid "da96ff4c-5615-4e99-9bf5-f00c9da7b00f")
 		)
 		(instances
-			(project ""
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "U2")
 					(unit 1)
@@ -10299,7 +10331,7 @@
 			(uuid "a4dc2797-5ede-4c3f-bace-ba71e3ca9c83")
 		)
 		(instances
-			(project "FramModule"
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "D3")
 					(unit 1)
@@ -10469,7 +10501,7 @@
 			(uuid "eb9958b7-de06-43ee-aa7f-d7a1224bf20f")
 		)
 		(instances
-			(project ""
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "J1")
 					(unit 1)
@@ -10603,7 +10635,7 @@
 			(uuid "41454bac-9bf2-43ba-8b3e-915d531702a1")
 		)
 		(instances
-			(project "FramModule"
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "R2")
 					(unit 1)
@@ -10736,7 +10768,7 @@
 			(uuid "2e2b8d2b-2527-42fe-95f4-4f5dbd15d672")
 		)
 		(instances
-			(project "FramModule"
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "#PWR07")
 					(unit 1)
@@ -10848,7 +10880,7 @@
 			(uuid "f3e8d4e1-1f97-4253-826b-80140e5061a3")
 		)
 		(instances
-			(project ""
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "U1")
 					(unit 1)
@@ -10984,7 +11016,7 @@
 			(uuid "8c86d5b7-e397-4154-babb-4de8c3383257")
 		)
 		(instances
-			(project ""
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "#PWR01")
 					(unit 1)
@@ -11054,7 +11086,7 @@
 			(uuid "1422e769-2559-4e1b-b546-9463c67536ff")
 		)
 		(instances
-			(project ""
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "R1")
 					(unit 1)
@@ -11257,7 +11289,7 @@
 			(uuid "90874a2d-990e-407b-80ce-a1755dd5fd31")
 		)
 		(instances
-			(project "FramModule"
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "#PWR04")
 					(unit 1)
@@ -11408,7 +11440,7 @@
 			(uuid "a59df2cb-88b2-4a3c-8231-9cf27c3dad4e")
 		)
 		(instances
-			(project "FramModule"
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "D2")
 					(unit 1)
@@ -11474,7 +11506,7 @@
 			(uuid "81a43070-f17b-41f4-b28a-0fb9043fb83c")
 		)
 		(instances
-			(project ""
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "#PWR02")
 					(unit 1)
@@ -11541,7 +11573,7 @@
 			(uuid "67e03ecb-3ef4-4627-90f8-72dd9b8c3081")
 		)
 		(instances
-			(project "FramModule"
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "#PWR06")
 					(unit 1)
@@ -11607,7 +11639,7 @@
 			(uuid "8821e364-9044-4421-be8f-2bc6e3220dc0")
 		)
 		(instances
-			(project "FramModule"
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "#PWR08")
 					(unit 1)
@@ -11741,7 +11773,7 @@
 			(uuid "c556c6e0-8d5f-4658-8334-9e4f6eef7b1c")
 		)
 		(instances
-			(project "FramModule"
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "#PWR03")
 					(unit 1)
@@ -12118,7 +12150,7 @@
 			(uuid "0400a048-40b3-42ee-bad0-939d98074cde")
 		)
 		(instances
-			(project ""
+			(project "MD0_FlashCart"
 				(path "/433df5d5-3ea8-417e-a5cf-237b7047c20d"
 					(reference "J2")
 					(unit 1)
