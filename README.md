@@ -1,7 +1,8 @@
 # MegaDuck MD0 FlashCart
 
 This FlashCart supports the MD0 Mapper by default.
-To support the MD1 Mapper the Dioded D1 and D2 need to be removed (untested).
+To support the MD1 Mapper the Diodes D1 and D2 need to be removed (untested).
+Please note that the FRAM might not work in this configuration and should not be placed!
 
 To support MD2 Mapper the flash needs to be altered:
 
